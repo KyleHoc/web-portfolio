@@ -1,0 +1,197 @@
+@import '../../styles.scss';
+
+.container, .main{
+  background-color: #5F5079;
+}
+
+.container, .links{
+  background-color: #393048;
+}
+
+.home-content{
+  padding: 3% 2% 6% 4%;
+  display: grid;
+  grid-template-columns: .8fr 3fr;
+  gap: 0;
+}
+
+.info{
+  color: white;
+  font-family: Oswald, sans-serif;
+}
+
+h1{
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.para{
+  margin-top: 1%;
+  width: 64%;
+  margin-right: 5%;
+}
+
+p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight:lighter;
+}
+
+.check-out{
+  width: 35%;
+  margin-top: 2%;
+}
+
+.button{
+  background-color: #412B67;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 100px;
+  opacity: 1;
+  font: normal normal bold 1.8rem "Open Sans";
+  letter-spacing: 0.75px;
+  color: #FFFFFD;
+  padding: 25px 10px 25px 10px;
+  width: 60%;
+}
+
+.button:hover{
+  background-color: #62429A;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+@media (max-width: 2400px) {
+  .button{
+    width: 85%;
+    font-size: 1.7rem;
+  }
+
+  .para{
+    width: 80%;
+  }
+
+  .home-content{
+    gap: 2%;
+  }
+
+  .info{
+    padding-top: 2%;
+  }
+}
+
+@media (max-width: 1800px) {
+  .info{
+    width: 99%;
+    padding-top: 3%;
+  }
+
+  .para{
+    width: 100%;
+  }
+
+  .button{
+    width: 55%;
+    font-size: 1.4rem;
+  }
+
+  .check-out{
+    width: 100%;
+  }
+
+  .home-content{
+    gap: 1%;
+  }
+
+  p{
+    font-size: 1.45rem;
+  }
+}
+
+
+@media (max-width: 994px) {
+  .button{
+    background-color: #412B67;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 100px;
+    opacity: 1;
+    font: normal normal bold 1.8rem "Open Sans";
+    letter-spacing: 0.75px;
+    color: #FFFFFD;
+    padding: 25px 10px 25px 10px;
+    width: 70% !important;
+  }
+
+  .check-out{
+    width: 100% !important;
+    justify-content: center;
+    display:flex;
+  }
+
+  .home-content{
+    padding: 3% 2% 6% 2%;
+    display: flex;
+  }
+
+  .photo{
+    width: 100%;
+    display: block;
+  }
+
+  .info{
+    width: 99%;
+    margin-top: 2%;
+  }
+
+  .para{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .button{
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 100px;
+    opacity: 1;
+    font: normal normal bold 1.8rem "Open Sans";
+    letter-spacing: 0.75px;
+    color: #FFFFFD;
+    padding: 25px 10px 25px 10px;
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  .check-out{
+    width: 100%;
+  }
+
+  .home-content{
+    gap: 2%;
+  }
+
+  p{
+    font-size: 1.4rem;
+  }
+
+
+  .info{
+    width: 100%;
+    padding-top: 3%;
+  }
+
+  .para{
+    width: 100%;
+  }
+
+  h1{
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 815px) {
+  .linked{
+    display: block;
+  }
+}

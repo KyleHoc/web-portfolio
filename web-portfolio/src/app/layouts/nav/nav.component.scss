@@ -1,0 +1,58 @@
+@import '../../../styles.scss';
+
+.navbar-custom{
+  background-color: #272727;
+}
+.navbar{
+  padding: 2%;
+}
+
+.navbar-brand{
+  font-family: Oswald, sans-serif;
+  color: #FFFF;
+  font-size: 3.6rem;
+  font-weight:300;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-family: Oswald, sans-serif;
+  color: #FFFF;
+  font-size: 2.1rem;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+}
+
+a{
+  color:#FFFF;
+  text-decoration: none;
+}
+
+ul{
+  margin-right: 7%;
+}
+
+.resume-link, .projects-link{
+  border-right: #5F5079 solid 4px;
+  padding-right: 5%;
+}
+
+.projects-link{
+  padding-left: 5%;
+}
+
+.contact-link{
+  padding-left: 5%;
+}
+
+button{
+  background-color: #FFFF;
+}
+
+@media (max-width: 994px) {
+  .resume-link{
+    padding-left: 5%;
+  }
+}

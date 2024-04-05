@@ -1,0 +1,115 @@
+.resume-container{
+  background-color: #5F5079;
+  padding: 0 20% 5% 20%
+}
+
+.inner-body{
+  padding-top: 1%;
+}
+
+.subheading{
+  display: grid;
+  grid-template-columns: 1fr 25fr 5fr;
+}
+
+a{
+  color: #FFF;
+  margin-top: 8%;
+}
+
+h1{
+  font-family: Oswald, sans-serif;
+  font-size: 3.5rem;
+  color: #FFFF;
+}
+
+h2{
+  font-family: Oswald, sans-serif;
+  font-size: 2.5rem;
+  color: #FFFF;
+}
+
+.summary{
+  background-color: #5F5079;
+  color: #FFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 5%;
+  font-weight: 200;
+}
+
+p{
+  line-height: 170%;
+}
+
+.education{
+  background-color: #5F5079;
+  margin-bottom: 3%;
+}
+
+.school{
+  display: grid;
+  margin-bottom: 1%;
+}
+
+@media(min-width: 1440px){
+  .school{
+    grid-template-columns: 1fr .7fr;
+  }
+  .date{
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media(max-width: 994px){
+  .resume-container{
+    padding: 0 10% 5% 10%
+  }
+}
+
+h3{
+  color:#FFFF;
+  font-size: 1.8rem;
+  font-family: "Oswald", sans-serif;
+}
+
+h4{
+  color:#FFFF;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight:200;
+}
+
+.education-container{
+  margin-bottom: 5%;
+}
+
+.skills{
+  background-color: #5F5079;
+  color:#FFFF;
+  font-size: 1rem;
+  line-height: 170%;
+  margin-bottom: 5%;
+}
+
+ul{
+  padding-left: 2%;
+}
+
+li{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  margin-bottom: 1%;
+}
+
+h2{
+  color: #272727;
+}
+
+.svg{
+  height: 32px;
+  width: 32px;
+  margin-top: 30%;
+  color:#272727
+}
