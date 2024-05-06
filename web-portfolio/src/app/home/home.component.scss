@@ -18,10 +18,11 @@
 .info{
   color: white;
   font-family: Oswald, sans-serif;
+  margin-top: 1%;
 }
 
 h1{
-  font-size: 3.5rem;
+  font-size: 2.4rem;
   font-weight: 400;
 }
 
@@ -33,13 +34,12 @@ h1{
 
 p{
   font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight:lighter;
 }
 
 .check-out{
-  width: 35%;
-  margin-top: 2%;
+  width: 25%;
 }
 
 .button{
@@ -47,26 +47,31 @@ p{
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 100px;
   opacity: 1;
-  font: normal normal bold 1.8rem "Open Sans";
+  font: normal normal bold 1rem "Open Sans";
   letter-spacing: 0.75px;
   color: #FFFFFD;
-  padding: 25px 10px 25px 10px;
-  width: 60%;
+  padding: 20px 5px 20px 5px;
 }
 
 .button:hover{
   background-color: #62429A;
+  cursor: pointer;
 }
 
 a{
   text-decoration: none;
+  color: white;
+}
+
+.photo{
+  margin-top: 10%;
 }
 
 
 @media (max-width: 2400px) {
   .button{
-    width: 85%;
-    font-size: 1.7rem;
+    width: 70%;
+    font-size: 1rem;
   }
 
   .para{
@@ -85,7 +90,6 @@ a{
 @media (max-width: 1800px) {
   .info{
     width: 99%;
-    padding-top: 3%;
   }
 
   .para{
@@ -93,12 +97,12 @@ a{
   }
 
   .button{
-    width: 55%;
-    font-size: 1.4rem;
+    width: 35%;
+    font-size: .9rem;
   }
 
   .check-out{
-    width: 100%;
+    width: 55%;
   }
 
   .home-content{
@@ -106,7 +110,11 @@ a{
   }
 
   p{
-    font-size: 1.45rem;
+    font-size: 1.1rem;
+  }
+
+  h1{
+    font-size: 2rem;
   }
 }
 
@@ -117,16 +125,20 @@ a{
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 100px;
     opacity: 1;
-    font: normal normal bold 1.8rem "Open Sans";
+    font: normal normal bold 1rem "Open Sans";
     letter-spacing: 0.75px;
     color: #FFFFFD;
     padding: 25px 10px 25px 10px;
-    width: 70% !important;
+    width: 25% !important;
+  }
+
+  .main{
+    padding-bottom: 30%;
   }
 
   .check-out{
     width: 100% !important;
-    justify-content: center;
+
     display:flex;
   }
 
@@ -138,6 +150,7 @@ a{
   .photo{
     width: 100%;
     display: block;
+    margin-top: 3% !important;
   }
 
   .info{
@@ -150,35 +163,56 @@ a{
   }
 }
 
+@media (max-width: 740px) {
+  .button{
+    width: 35% !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .button{
+    width: 55% !important;
+  }
+}
+
+@media (max-width: 330px) {
+  .button{
+    width: 100% !important;
+    margin-bottom: 20%;
+  }
+}
+
+@media (max-width: 1450px) {
+  .button{
+    width: 45%;
+  }
+}
+
 @media (max-width: 1250px) {
   .button{
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 100px;
     opacity: 1;
-    font: normal normal bold 1.8rem "Open Sans";
+    font: normal normal bold .8rem "Open Sans";
     letter-spacing: 0.75px;
     color: #FFFFFD;
-    padding: 25px 10px 25px 10px;
-    width: 90%;
-    font-size: 1.5rem;
+    padding: 20px 10px 20px 10px;
+    width: 60%;
   }
 
-  .check-out{
-    width: 100%;
-  }
+
 
   .home-content{
     gap: 2%;
   }
 
   p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
 
   .info{
     width: 100%;
-    padding-top: 3%;
   }
 
   .para{
@@ -186,7 +220,11 @@ a{
   }
 
   h1{
-    font-size: 2.7rem;
+    font-size: 2.3rem;
+  }
+
+  .photo{
+    margin-top: 25%;
   }
 }
 

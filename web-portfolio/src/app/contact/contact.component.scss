@@ -1,18 +1,38 @@
 .contact-container{
   background-color: #5F5079;
-  padding-top: 1%;
+  padding-top: 3%;
   padding-bottom: 20%;
   color: #FFFF;
+}
+
+.emailForm{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1{
   font-family: "Oswald", "Sans Serif";
   font-size: 3.5rem;
+  margin-bottom: 1%;
+}
+
+.form-group{
+  margin-bottom: 2%;
 }
 
 p{
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem
+}
+
+label{
+  margin-bottom: 1%;
+}
+
+.btn{
+  background-color: #412B67;
+  color: white;
 }
 
 .contact{
@@ -23,14 +43,13 @@ p{
   margin-bottom: 2%;
 }
 
-@media(max-width: 994px){
-  .contact{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+@media (max-width: 994px) {
+  h1{
+    font-size: 2.4rem;
   }
 
-  h1{
-    margin-bottom: 8%;
-    font-size: 2.5rem;
+  .emailForm{
+    width: 85%;
   }
 }
+

@@ -10,7 +10,7 @@
 .navbar-brand{
   font-family: Oswald, sans-serif;
   color: #FFFF;
-  font-size: 3.6rem;
+  font-size: 3.2rem;
   font-weight:300;
 }
 
@@ -18,7 +18,7 @@
   text-decoration: none;
   font-family: Oswald, sans-serif;
   color: #FFFF;
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 
 .nav-link:hover{
@@ -54,5 +54,30 @@ button{
 @media (max-width: 994px) {
   .resume-link{
     padding-left: 5%;
+  }
+
+}
+
+@media (max-width: 420px) {
+  .navbar-brand{
+    font-size: 1.8rem;
+    margin-right: 2%;
+  }
+
+  .navbar-toggler{
+    font-size: .8rem;
+  }
+}
+
+@media (max-width: 250px) {
+  .navbar-brand{
+    font-size: 1.2rem;
+    margin-right: 2%;
+  }
+
+  .navbar-toggler{
+    font-size: .6rem;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
