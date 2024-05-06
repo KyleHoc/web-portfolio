@@ -3,7 +3,8 @@
     <h1>Let's Get In Touch</h1>
   </div>
 
-  <form class="emailForm">
+  <form class="emailForm" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="c728ae54-be8f-48fc-b2ba-2c98c9ca502c">
 <!---
     <div *ngIf="successMessage">
       <div class="alert alert-success font" role="alert">
@@ -12,13 +13,21 @@
     </div> -->
 
     <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter name" formControlName="name" required name="name">
+    </div>
+
+    <div class="form-group">
       <label for="email">Email address:</label>
-      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" formControlName="email">
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" formControlName="email" required name="email">
     </div>
     <div class="form-group">
       <label for="content">Message:</label>
-      <textarea type="text" class="form-control" id="content" placeholder="Message" formControlName="content" rows="5"></textarea>
+      <textarea type="text" class="form-control" id="content" placeholder="Message" formControlName="content" rows="5" required name="message"></textarea>
     </div>
+
+    <div class="h-captcha" data-captcha="true"></div>
+
     <button type="submit" class="btn">Send</button>
   </form>
 

@@ -1,24 +1,27 @@
-// import { Injectable } from '@angular/core';
+ import { Injectable } from '@angular/core';
 // import sgMail from '@sendgrid/mail';
 
 // sgMail.setApiKey('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');
+const express = require('express');
+const router =  express.Router();
 
-// @Injectable({
-//   providedIn: 'root'
-// })
-// export class EmailService {
+@Injectable({
+  providedIn: 'root'
+})
+export class EmailService {
 
-//   constructor() { }
+  constructor() { }
 
-//   sendEmail(to: string, subject: string, content: string): Promise<any> {
 
-//     const msg = {
-//       to: 'kjhochdoerfer@gmail.com',
-//       from: to,
-//       subject,
-//       html: content
-//     };
+  // sendEmail(to: string, subject: string, content: string): Promise<any> {
 
-//     return sgMail.send(msg);
-//   }
-// }
+  //   const msg = {
+  //     to: 'kjhochdoerfer@gmail.com',
+  //     from: to,
+  //     subject,
+  //     html: content
+  //   };
+
+  //   return sgMail.send(msg);
+  // }
+}
